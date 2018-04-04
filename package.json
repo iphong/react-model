@@ -1,0 +1,63 @@
+{
+	"name": "react-model",
+	"version": "1.0.0",
+	"description": "Model and Collection for React application",
+	"main": "./src",
+	"scripts": {
+		"build": "webpack",
+		"watch": "webpack --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iphong/react-model.git"
+	},
+	"keywords": [
+		"react",
+		"model",
+		"collection"
+	],
+	"author": "Phong Vu",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/iphong/react-model/issues"
+	},
+	"homepage": "https://github.com/iphong/react-model#readme",
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.2.2",
+		"babel-loader": "^7.1.4",
+		"babel-plugin-external-helpers": "^6.22.0",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"eslint": "^4.19.1",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-config-react": "^1.1.7",
+		"eslint-plugin-flowtype": "^2.46.1",
+		"eslint-plugin-import": "^2.9.0",
+		"eslint-plugin-prettier": "^2.6.0",
+		"eslint-plugin-react": "^7.7.0",
+		"flow-bin": "^0.68.0",
+		"graphql": "^0.13.2",
+		"graphql-tag": "^2.8.0",
+		"prettier": "^1.11.1",
+		"prop-types": "^15.6.1",
+		"rollup": "^0.57.1",
+		"rollup-plugin-babel": "^3.0.3",
+		"rollup-plugin-flow": "^1.1.1",
+		"rollup-plugin-jsx": "^1.0.3",
+		"rollup-plugin-node-builtins": "^2.1.2",
+		"rollup-plugin-node-resolve": "^3.3.0",
+		"rollup-plugin-uglify": "^3.0.0"
+	},
+	"dependencies": {
+		"babel-helpers": "^6.24.1",
+		"model-x": "^0.2.3",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"save-pixels": "^2.3.4",
+		"underscore": "^1.8.3",
+		"zeros": "^1.0.0"
+	}
+}

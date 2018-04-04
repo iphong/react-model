@@ -12,7 +12,7 @@ class Item extends React.Component {
   }
 
   handleChange() {
-    this.forceUpdate();
+    this.forceUpdate();w
   }
 
   componentDidMount() {
