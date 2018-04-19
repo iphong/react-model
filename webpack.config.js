@@ -1,7 +1,7 @@
 module.exports = {
 	entry: './src/demo.js',
 	output: {
-		filename: './dist/demo.js'
+		filename: './demo/demo.js'
 	},
 	module: {
 		rules: [
